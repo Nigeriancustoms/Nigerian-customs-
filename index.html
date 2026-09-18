@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Vehicle auction information and enquiry platform. Browse available vehicles and make an enquiry.">
+
+    <meta name="theme-color" content="#063b2a">
+
+    <title>Nigeria Customs Service | Vehicle Auction</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     TOP NOTICE
+===================================================== -->
+
+<div class="top-notice">
+    <div class="container">
+        <p>
+            <span class="notice-icon">✓</span>
+            Vehicle Auction Information &amp; Enquiry
+        </p>
+
+        <a href="#contact">
+            Contact Auction Team
+            <span>→</span>
+        </a>
+    </div>
+</div>
+
+
+<!-- =====================================================
+     HEADER / NAVIGATION
+===================================================== -->
+
+<header class="site-header" id="siteHeader">
+
+    <div class="container nav-container">
+
+        <a href="#home" class="brand">
+
+            <div class="brand-logo">
+                <img
+                    src="images/ncs-logo.jpg"
+                    alt="Nigeria Customs Service emblem"
+                >
+            </div>
+
+            <div class="brand-text">
+                <strong>NIGERIA CUSTOMS</strong>
+                <span>VEHICLE AUCTION</span>
+            </div>
+
+        </a>
+
+
+        <nav class="desktop-nav">
+
+            <a href="#home" class="active">Home</a>
+
+            <a href="#vehicles">Vehicles</a>
+
+            <a href="#how-it-works">How It Works</a>
+
+            <a href="#about">About</a>
+
+            <a href="#contact">Contact</a>
+
+            <a href="#vehicles" class="nav-button">
+                Browse Vehicles
+            </a>
+
+        </nav>
+
+
+        <button
+            class="mobile-menu-button"
+            id="mobileMenuButton"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+
+
+    <!-- Mobile Navigation -->
+
+    <div class="mobile-navigation" id="mobileNavigation">
+
+        <a href="#home">Home</a>
+
+        <a href="#vehicles">Vehicles</a>
+
+        <a href="#how-it-works">How It Works</a>
+
+        <a href="#about">About</a>
+
+        <a href="#contact">Contact</a>
+
+        <a href="#vehicles" class="mobile-nav-button">
+            Browse Vehicles
+        </a>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     HERO SECTION
+===================================================== -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-background"></div>
+
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                VEHICLE AUCTION
+            </div>
+
+
+            <h1>
+                Find Your Next
+                <span>Vehicle.</span>
+            </h1>
+
+
+            <p class="hero-description">
+                Explore vehicles available through the auction
+                process, view detailed information and contact
+                the auction team about vehicles that interest you.
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#vehicles" class="primary-button">
+                    Browse Vehicles
+                    <span>→</span>
+                </a>
+
+                <a href="#how-it-works" class="secondary-button">
+                    How It Works
+                </a>
+
+            </div>
+
+
+            <div class="hero-trust">
+
+                <div class="trust-item">
+                    <strong>01</strong>
+                    <span>Browse</span>
+                </div>
+
+                <div class="trust-line"></div>
+
+                <div class="trust-item">
+                    <strong>02</strong>
+                    <span>Inspect</span>
+                </div>
+
+                <div class="trust-line"></div>
+
+                <div class="trust-item">
+                    <strong>03</strong>
+                    <span>Enquire</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-visual">
+
+            <div class="hero-car-card">
+
+                <div class="hero-car-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=85"
+                        alt="Vehicle available for auction"
+                    >
+
+                    <div class="image-overlay"></div>
+
+                    <div class="featured-label">
+                        FEATURED VEHICLE
+                    </div>
+
+                </div>
+
+
+                <div class="hero-car-info">
+
+                    <div>
+
+                        <span class="vehicle-small-label">
+                            SAMPLE VEHICLE
+                        </span>
+
+                        <h3>
+                            Toyota Sedan
+                        </h3>
+
+                    </div>
+
+                    <span class="vehicle-arrow">↗</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="floating-stat">
+
+                <div class="stat-icon">🚘</div>
+
+                <div>
+                    <strong>Vehicles</strong>
+                    <span>Available to view</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     QUICK STATS
+===================================================== -->
+
+<section class="quick-stats">
+
+    <div class="container stats-grid">
+
+        <div class="stat-box">
+
+            <span class="stat-number">01</span>
+
+            <div>
+                <strong>Browse</strong>
+                <p>Explore available vehicles</p>
+            </div>
+
+        </div>
+
+
+        <div class="stat-box">
+
+            <span class="stat-number">02</span>
+
+            <div>
+                <strong>View Details</strong>
+                <p>Review vehicle information</p>
+            </div>
+
+        </div>
+
+
+        <div class="stat-box">
+
+            <span class="stat-number">03</span>
+
+            <div>
+                <strong>Make Enquiry</strong>
+                <p>Contact the auction team</p>
+            </div>
+
+        </div>
+
+
+        <div class="stat-box">
+
+            <span class="stat-number">04</span>
+
+            <div>
+                <strong>Get Assistance</strong>
+                <p>Receive further information</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FEATURED VEHICLES
+===================================================== -->
+
+<section class="vehicles-section" id="vehicles">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="section-label">
+                    VEHICLE COLLECTION
+                </span>
+
+                <h2>
+                    Available Vehicles
+                </h2>
+
+            </div>
+
+
+            <p>
+                Browse the available vehicle listings and
+                select a vehicle to view its details.
+            </p>
+
+        </div>
+
+
+        <!-- Search / Filter -->
+
+        <div class="vehicle-controls">
+
+            <div class="search-box">
+
+                <span>⌕</span>
+
+                <input
+                    type="search"
+                    id="vehicleSearch"
+                    placeholder="Search vehicles..."
+                    autocomplete="off"
+                >
+
+            </div>
+
+
+            <div class="filter-buttons">
+
+                <button class="filter-button active" data-filter="all">
+                    All Vehicles
+                </button>
+
+                <button class="filter-button" data-filter="sedan">
+                    Sedans
+                </button>
+
+                <button class="filter-button" data-filter="suv">
+                    SUVs
+                </button>
+
+                <button class="filter-button" data-filter="truck">
+                    Trucks
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Vehicle Grid -->
+
+        <div class="vehicle-grid" id="vehicleGrid">
+
+
+            <!-- Vehicle 1 -->
+
+            <article
+                class="vehicle-card"
+                data-category="sedan"
+                data-name="Toyota Camry"
+            >
+
+                <div class="vehicle-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=1000&q=85"
+                        alt="Toyota Camry"
+                        loading="lazy"
+                    >
+
+                    <span class="vehicle-status">
+                        AVAILABLE
+                    </span>
+
+                    <span class="vehicle-id">
+                        NCS-001
+                    </span>
+
+                </div>
+
+
+                <div class="vehicle-content">
+
+                    <div class="vehicle-title-row">
+
+                        <div>
+
+                            <span class="vehicle-type">
+                                SEDAN
+                            </span>
+
+                            <h3>
+                                Toyota Camry
+                            </h3>
+
+                        </div>
+
+                        <span class="vehicle-year">
+                            2018
+                        </span>
+
+                    </div>
+
+
+                    <div class="vehicle-specs">
+
+                        <span>⚙ Automatic</span>
+
+                        <span>⛽ Petrol</span>
+
+                        <span>🚘 Sedan</span>
+
+                    </div>
+
+
+                    <div class="vehicle-bottom">
+
+                        <div>
+                            <span class="price-label">
+                                SAMPLE PRICE
+                            </span>
+
+                            <strong>
+                                ₦8,500,000
+                            </strong>
+                        </div>
+
+
+                        <button
+                            class="view-button"
+                            data-vehicle="Toyota Camry"
+                        >
+                            View
+                            <span>→</span>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Vehicle 2 -->
+
+            <article
+                class="vehicle-card"
+                data-category="suv"
+                data-name="Toyota Highlander"
+            >
+
+                <div class="vehicle-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1000&q=85"
+                        alt="Toyota Highlander"
+                        loading="lazy"
+                    >
+
+                    <span class="vehicle-status">
+                        AVAILABLE
+                    </span>
+
+                    <span class="vehicle-id">
+                        NCS-002
+                    </span>
+
+                </div>
+
+
+                <div class="vehicle-content">
+
+                    <div class="vehicle-title-row">
+
+                        <div>
+
+                            <span class="vehicle-type">
+                                SUV
+                            </span>
+
+                            <h3>
+                                Toyota Highlander
+                            </h3>
+
+                        </div>
+
+                        <span class="vehicle-year">
+                            2019
+                        </span>
+
+                    </div>
+
+
+                    <div class="vehicle-specs">
+
+                        <span>⚙ Automatic</span>
+
+                        <span>⛽ Petrol</span>
+
+                        <span>🚙 SUV</span>
+
+                    </div>
+
+
+                    <div class="vehicle-bottom">
+
+                        <div>
+                            <span class="price-label">
+                                SAMPLE PRICE
+                            </span>
+
+                            <strong>
+                                ₦12,000,000
+                            </strong>
+                        </div>
+
+
+                        <button
+                            class="view-button"
+                            data-vehicle="Toyota Highlander"
+                        >
+                            View
+                            <span>→</span>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Vehicle 3 -->
+
+            <article
+                class="vehicle-card"
+                data-category="sedan"
+                data-name="Honda Accord"
+            >
+
+                <div class="vehicle-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1000&q=85"
+                        alt="Honda Accord"
+                        loading="lazy"
+                    >
+
+                    <span class="vehicle-status">
+                        AVAILABLE
+                    </span>
+
+                    <span class="vehicle-id">
+                        NCS-003
+                    </span>
+
+                </div>
+
+
+                <div class="vehicle-content">
+
+                    <div class="vehicle-title-row">
+
+                        <div>
+
+                            <span class="vehicle-type">
+                                SEDAN
+                            </span>
+
+                            <h3>
+                                Honda Accord
+                            </h3>
+
+                        </div>
+
+                        <span class="vehicle-year">
+                            2017
+                        </span>
+
+                    </div>
+
+
+                    <div class="vehicle-specs">
+
+                        <span>⚙ Automatic</span>
+
+                        <span>⛽ Petrol</span>
+
+                        <span>🚘 Sedan</span>
+
+                    </div>
+
+
+                    <div class="vehicle-bottom">
+
+                        <div>
+                            <span class="price-label">
+                                SAMPLE PRICE
+                            </span>
+
+                            <strong>
+                                ₦7,800,000
+                            </strong>
+                        </div>
+
+
+                        <button
+                            class="view-button"
+                            data-vehicle="Honda Accord"
+                        >
+                            View
+                            <span>→</span>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Vehicle 4 -->
+
+            <article
+                class="vehicle-card"
+                data-category="suv"
+                data-name="Lexus RX 350"
+            >
+
+                <div class="vehicle-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=1000&q=85"
+                        alt="Lexus RX 350"
+                        loading="lazy"
+                    >
+
+                    <span class="vehicle-status">
+                        AVAILABLE
+                    </span>
+
+                    <span class="vehicle-id">
+                        NCS-004
+                    </span>
+
+                </div>
+
+
+                <div class="vehicle-content">
+
+                    <div class="vehicle-title-row">
+
+                        <div>
+
+                            <span class="vehicle-type">
+                                SUV
+                            </span>
+
+                            <h3>
+                                Lexus RX 350
+                            </h3>
+
+                        </div>
+
+                        <span class="vehicle-year">
+                            2020
+                        </span>
+
+                    </div>
+
+
+                    <div class="vehicle-specs">
+
+                        <span>⚙ Automatic</span>
+
+                        <span>⛽ Petrol</span>
+
+                        <span>🚙 SUV</span>
+
+                    </div>
+
+
+                    <div class="vehicle-bottom">
+
+                        <div>
+                            <span class="price-label">
+                                SAMPLE PRICE
+                            </span>
+
+                            <strong>
+                                ₦15,500,000
+                            </strong>
+                        </div>
+
+
+                        <button
+                            class="view-button"
+                            data-vehicle="Lexus RX 350"
+                        >
+                            View
+                            <span>→</span>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <div class="catalogue-note">
+
+            <span>ⓘ</span>
+
+            <p>
+                Vehicle information, images, prices and availability
+                shown in this initial design are sample content and
+                should be replaced with the client's approved auction
+                inventory before publication.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     HOW IT WORKS
+===================================================== -->
+
+<section class="process-section" id="how-it-works">
+
+    <div class="container">
+
+        <div class="section-heading centered">
+
+            <span class="section-label">
+                SIMPLE PROCESS
+            </span>
+
+            <h2>
+                How It Works
+            </h2>
+
+            <p>
+                Find a vehicle that interests you and make an
+                enquiry through a simple process.
+            </p>
+
+        </div>
+
+
+        <div class="process-grid">
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    01
+                </span>
+
+                <div class="process-icon">
+                    🚗
+                </div>
+
+                <h3>
+                    Browse Vehicles
+                </h3>
+
+                <p>
+                    Explore the available vehicle listings
+                    and find a vehicle that interests you.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    02
+                </span>
+
+                <div class="process-icon">
+                    🔍
+                </div>
+
+                <h3>
+                    View Details
+                </h3>
+
+                <p>
+                    Review the available specifications,
+                    images and vehicle information.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    03
+                </span>
+
+                <div class="process-icon">
+                    💬
+                </div>
+
+                <h3>
+       
